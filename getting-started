@@ -1,0 +1,17 @@
+# 1. Print a string that uses double quotation marks inside the string
+print("Hello, world!")
+
+# 2. Print a string that uses an apostrophe (single quote) inside the string
+print("Olivia's code")
+
+# 3. Print a string that spans across multiple lines
+print("""Today is
+Monday.
+It
+is
+cold.""")
+
+# 4. Print a one-line string that you have written out on multiple lines
+print("this is \
+on \
+one line")
