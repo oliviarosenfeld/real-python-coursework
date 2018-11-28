@@ -1,0 +1,8 @@
+temp = int(input("Enter a temperature to convert: "))
+measure = input("Is your temperature in Fahrenheit or Celsius? Enter F for Fahrenheit and C for Celsius: ")
+if measure.lower == 'f':
+	conversion = (temp-32) * (5/9)
+else:
+	conversion = temp* (9/5) +32
+print(conversion)
+    
