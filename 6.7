@@ -1,0 +1,8 @@
+from random import randint
+
+print(randint(0,6))
+
+x=0
+for trial in range(0,10000):
+	x = x + randint(1,6)
+print(x / 10000)
