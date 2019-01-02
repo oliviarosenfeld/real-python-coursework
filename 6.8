@@ -1,0 +1,33 @@
+from random import random
+
+trials = 10000
+a_wins = 0
+b_wins = 0
+
+for trial in range(0, trials):
+	a = 0
+	b = 0
+
+	if random() < .87:
+		a += 1
+	else:
+		b +=1
+
+	if random() < .65:
+		a += 1
+	else: 
+		b +=1
+
+	if random() < .17:
+		a += 1
+	else: 
+		b +=1
+
+	if a > b:
+		a_wins += 1
+	else:
+		b_wins +=1
+
+print("Probability that A wins is ", a_wins/10000)
+print("Probability that B wins is ", b_wins/10000)
+
