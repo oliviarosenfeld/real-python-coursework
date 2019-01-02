@@ -1,0 +1,23 @@
+desserts = ["ice cream", "cookies"]
+desserts.sort()
+print(desserts)
+print(desserts.index("ice cream"))
+food = desserts[:]
+food.append("broccoli")
+food.append("turnips")
+print(desserts)
+print(food)
+food.remove("cookies")
+print(food[0:2])
+cookie_string = "cookies, cookies, cookies"
+breakfast = cookie_string.split(", ")
+print(breakfast)
+
+numbers = [2,4,8,16,32,64]
+new_list = []
+def list_func(list):
+	for item in list:
+		if item >= 2 and item <= 20:
+			new_list.append(item)
+	print(new_list)
+list_func(numbers)
