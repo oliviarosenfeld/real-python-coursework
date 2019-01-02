@@ -1,0 +1,18 @@
+from random import randint
+
+trials = 10000
+
+
+#0 is heads, 1 is tails
+
+flip_number = 1 
+for trial in range(0,trials):
+	if randint(0,1) == 0:
+		while randint(0,1) == 0:
+			flip_number +=1
+	else:
+		while randint(0,1) == 1:
+			flip_number += 1
+
+print(flip_number/trials)
+
